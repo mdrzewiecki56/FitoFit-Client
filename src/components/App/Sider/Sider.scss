@@ -1,0 +1,10 @@
+.Sider {
+    &__logo {
+        cursor: pointer;
+        height: 32px;
+        margin: 16px;
+        &__image {
+            margin-right: 0.5rem;
+        }
+    }
+}
