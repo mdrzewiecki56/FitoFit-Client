@@ -1,4 +1,3 @@
-import {useEffect} from "react";
 import {Redirect, Route, Switch} from "react-router-dom";
 
 import {Layout} from "antd";

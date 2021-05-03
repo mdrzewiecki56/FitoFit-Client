@@ -15,9 +15,4 @@ const addWalk = async (start_address:string, end_address:string) => {
     return data;
 };
 
-const getWalks = async (per_page = 10, page = 0) => {
-    const {data} = await axios.request({url: "walks/", params:{per_page, page}, method: "GET"});
-    return data;
-};
-
 export default {autocomplete, calculateDistance, addWalk};

@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
 
 import {AutoComplete, Button, Form, Input, Row} from "antd";
-import * as _ from "lodash";
 
 import actions from "../../api/walkActions";
 import useDebounce from "../../hooks/useDebounce";
